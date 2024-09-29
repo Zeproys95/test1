@@ -1,0 +1,77 @@
+HTML
+----------------------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav container">
+            <div>
+
+                <img src="https://bedrok.rufataliyev.xyz/_next/static/media/logo.6451a1f2.svg" alt="">
+            </div>
+            <div>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Subscribe</a>
+            </div>
+        </nav>
+        <div class="hero">
+        <img src="./photo_5458715374234230603_y.jpg" alt="">
+        <div class="as">
+            <h5>About me</h5>
+            <h1>Hey,I'am Salah</h1>
+
+        </div>
+    </div>
+
+
+    </header>
+</body>
+</html>
+
+
+
+
+CSS
+--------------------
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box ;
+    font-family: "Inter" ,sans-serif;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.header{
+    padding: 22px 0;
+    border-bottom: 1px solid rgb(136, 135, 129);
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero{
+    width: 1000px; 
+    margin: 100px  auto;
+}
+.as{
+    
+}
